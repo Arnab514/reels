@@ -3,13 +3,13 @@ import React from 'react';
 import VideoReel from './VideoReel';
 import { useIsMobile } from '@/hooks/use-mobile';
 import { GradientBackground } from './GradientBackground';
-import { Header } from './Header';
+import Header  from './Header';
 
 // Placeholder data
 const reelsData = [
   {
     id: '1',
-    videoUrl: '/video 1.mp4',  // Path relative to public folder
+    videoUrl: '/video 4.mp4',  // Path relative to public folder
     productInfo: {
       id: 'prod1',
       name: 'Urban Street Jacket',
@@ -19,7 +19,7 @@ const reelsData = [
   },
   {
     id: '2',
-    videoUrl: '/video 1.mp4',  // Using same video for demo
+    videoUrl: '/video 2.mp4',  // Using same video for demo
     productInfo: {
       id: 'prod2',
       name: 'Designer Denim Collection',
@@ -29,7 +29,27 @@ const reelsData = [
   },
   {
     id: '3',
-    videoUrl: '/video 1.mp4',  // Using same video for demo
+    videoUrl: '/video 3.mp4',  // Using same video for demo
+    productInfo: {
+      id: 'prod3',
+      name: 'Winter Collection Coat',
+      price: 199.99,
+      description: 'Warm and stylish winter coat with premium materials.',
+    },
+  },
+  {
+    id: '4',
+    videoUrl: '/video 5.mp4',  // Using same video for demo
+    productInfo: {
+      id: 'prod3',
+      name: 'Winter Collection Coat',
+      price: 199.99,
+      description: 'Warm and stylish winter coat with premium materials.',
+    },
+  },
+  {
+    id: '3',
+    videoUrl: '/video 6.mp4',  // Using same video for demo
     productInfo: {
       id: 'prod3',
       name: 'Winter Collection Coat',
